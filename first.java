@@ -22,7 +22,7 @@ class DerivedClass extends BaseClass
     }
     public String toString()
     {
-        return super.toString() + id;
+        return super.toString() + " " + id;
     }
 }
 
